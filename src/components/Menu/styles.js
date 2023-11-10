@@ -1,28 +1,53 @@
 import styled from "styled-components";
 
-export const Container = styled.ul`
+export const Container = styled.header`
+  height: 115px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  /* gap: 79px; */
-  padding: 40px 130px;
-  font-weight: 600;
 
-  > li {
-    margin-left: 30px;
-  }
-
-  > li:first-child {
-    margin-right: 79px;
-  }
-
-  > li:last-child {
+  > nav {
     display: flex;
-    margin-left: 79px;
-    padding: 10px 20px;
-    gap: 15px;
+    width: 100%;
 
-    border-radius: 50px;
-    border: 2px solid #89db7b;
+    .nav-list {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-weight: 600;
+
+      .link-list {
+        display: flex;
+        color: #1e1e1e;
+      }
+
+      .link {
+        padding: 10px 20px;
+      }
+
+      .link:visited {
+        color: #1e1e1e;
+      }
+
+      .link:hover {
+        background-color: #89db7b;
+        transition: background-color 0.3s;
+        border-radius: 30px;
+      }
+
+      .contact-button {
+        border-radius: 50px;
+        border: 2px solid #89db7b;
+        padding: 15px 30px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+          height: 15px;
+          width: 15px;
+        }
+      }
+    }
   }
 `;

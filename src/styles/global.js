@@ -15,4 +15,18 @@ body {
 ul {
     list-style: none;
 }
+
+a {
+    text-decoration: none;
+}
+
+button, a {
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+button:hover {
+    /* vai dar uma escurecida no hover dos botões e dos links: */
+  filter: brightness(0.9);
+}
 `;
