@@ -1,38 +1,50 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  > div {
+  padding: 0 30px;
+  /* sempre colocar esse max-width e o width p ser a maior largura possível da pág
+  e configurar o root
+  */
+  max-width: 1200px;
+  width: 100%;
+
+  .text-button-image-container {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 130px;
+    position: relative;
   }
 
-  > div .text-container {
-    width: 620px;
+  .text-container {
+    width: 667px;
     font-size: 54px;
     font-weight: 700;
     color: #1e1e1e;
   }
 
   .image-container {
-    width: 596.855px;
-    height: 622px;
-    /* background: #ffc170 -226.516px 0px / 156.446% 100% no-repeat; */
-    border-radius: 100px 100px 0 0;
+    > img {
+      width: 450px;
+      height: 500px;
+    }
+
+    position: absolute;
+    z-index: -10;
+    right: 30px;
   }
 
-  .mainButton {
+  .button-wrapper {
     margin-top: 69px;
     position: relative;
-    z-index: 1;
   }
 
   .svg-button {
-    width: 113px;
-    height: 113px;
+    bottom: -24px;
+    left: 148px;
+
     position: absolute;
-    bottom: 52px;
-    left: 260px;
-    z-index: 0;
+
+    > svg {
+      width: 113px;
+      height: 113px;
+    }
   }
 `;

@@ -4,6 +4,7 @@ export const Container = styled.header`
   height: 115px;
   display: flex;
   align-items: center;
+  margin-bottom: 70px;
 
   > nav {
     display: flex;
@@ -13,7 +14,7 @@ export const Container = styled.header`
       width: 100%;
       display: flex;
       align-items: center;
-      justify-content: space-around;
+      justify-content: space-between;
       font-weight: 600;
 
       .link-list {

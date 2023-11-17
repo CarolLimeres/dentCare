@@ -13,20 +13,17 @@ export function Home() {
             Smile
           </div>
 
-          <div className="mainButton">
+          <div className="button-wrapper">
             <MainButton title="Booking Now"></MainButton>
-          </div>
-          <div className="svg-button">
-            <img src="../../public/assets/Subtract.svg" alt="" />
+            <div className="svg-button">
+              <img src="../../public/assets/Subtract.svg" alt="" />
+            </div>
           </div>
         </div>
 
-        {/* <div className="image-container">
-          <img
-            src="/public/assets/good-looking-smiling-woman-looking-friendly-front 1 (1).png"
-            alt=""
-          />
-        </div> */}
+        <div className="image-container">
+          <img src="/public/assets/mulher.png" alt="" />
+        </div>
       </div>
     </Container>
   );

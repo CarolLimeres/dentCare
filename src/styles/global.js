@@ -8,6 +8,12 @@ export default createGlobalStyle`
     box-sizing: border-box;
 }
 
+/* alinhar o conteúdo da aplicação ao centro */
+#root {
+    display: flex;
+    justify-content: center;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
