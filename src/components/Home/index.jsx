@@ -1,11 +1,9 @@
 import { Container } from "./styles";
-import { Menu } from "../components/Menu";
-import { MainButton } from "../components/MainButton";
+import { MainButton } from "../MainButton";
 
 export function Home() {
   return (
     <Container>
-      <Menu></Menu>
       <div className="text-button-image-container">
         <div className="text-button-container">
           <div className="text-container">
