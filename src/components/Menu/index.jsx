@@ -6,7 +6,7 @@ export function Menu() {
       <nav>
         <ul className="nav-list">
           <li>
-            <img src="../../../public/assets/57Dentcare.png" alt="" />
+            <img src="/public/assets/menu-images/57Dentcare.png" alt="" />
           </li>
           <li>
             <ul className="link-list">

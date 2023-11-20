@@ -14,13 +14,16 @@ export function Home() {
           <div className="button-wrapper">
             <MainButton title="Booking Now"></MainButton>
             <div className="svg-button">
-              <img src="../../public/assets/Subtract.svg" alt="" />
+              <img
+                src="/public/assets/main-button-images/Subtract.svg"
+                alt=""
+              />
             </div>
           </div>
         </div>
 
         <div className="image-container">
-          <img src="/public/assets/mulher.png" alt="" />
+          <img src="/public/assets/home-images/mulher.png" alt="" />
         </div>
       </div>
     </Container>
