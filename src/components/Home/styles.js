@@ -27,6 +27,7 @@ export const Container = styled.div`
   .button-wrapper {
     margin-top: 69px;
     position: relative;
+    margin-bottom: 100px;
   }
 
   .svg-button {
